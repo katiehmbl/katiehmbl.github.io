@@ -1,22 +1,132 @@
-
-/*
-
-
-CSS: element, id, class
-
-selector{
-    property:value;
-}
-
-*/
-body{ 
-    background-color: lightgreen
-}
-
-h1{
-    text-decoration:underline
+<style>
+body
+ {
+margin: 0;
+padding: 0;
+background-color:#ffffff;
+width: 100%;
+height: 140px;
 }
 
 #header{
-    text-align:center;
+position:fixed;
+float: right;
+margin-top: 0px;
+background-color:#34cfb0;
+width: 100%;
+height: 80px;
+
 }
+
+
+#container{
+font-family: Tahoma,Verdana,Segoe,sans-serif; 
+margin-top: 0px;
+padding-bottom: 60px;
+padding-left: 0%;
+width: 100%;
+min-height: 600px;
+overflow: auto;
+z-index: -1;
+
+
+}
+#links{
+margin-top: 0px;
+padding-top: 20px;
+
+width: 60%;
+margin-left: 20%;
+text-align: justify;
+font-family: myFirstFont;
+color: #eeeded;
+}
+span{
+  background-color:red;
+  width:100%;
+  height:0em;
+  display:inline-block;
+}
+#links a:link{ color:#ffffff; font-size:24px; font-style: bold; 
+ } 
+#links a:visited{ color:#ffffff; } 
+#links a:hover{ color:#5bce44; font-style: itallic; } 
+#links a:active{ color:#eeeded}
+
+
+#content{
+text-align: left;
+float: left;
+margin-top: 0px;
+margin-left: 20%;
+width: 60%;
+background-color:#ffffff;
+z-index: 1;
+
+}
+
+
+#footer{
+margin-top: 30px;
+padding-top: 30px;
+padding-bottom: 10px;
+width: 100%;
+attachment: bottom;
+background-color:#0a1903;
+
+}
+#footertext{ 
+color: #ffffff; 
+text-align: center; 
+} 
+a { 
+font-family: myFirstFont;
+} 
+
+a:hover { 
+color:#142303; 
+} 
+
+#bluebox {
+width:720px;
+background-color:#e7f6fa;
+    border:1px solid #bad8e1;
+
+}
+#greenbox {
+width:700px;
+background-color:#ccf9b8;
+    border:1px solid #9ace84;
+text-align: left;
+
+}
+#redbox {
+width:700px;
+background-color:#f9b8b8;
+ border:1px solid #da7979;
+}
+
+
+h1 {
+font-family: myFirstFont;
+    color:#0a1903;
+text-align: left;
+}
+
+h2 {
+font-family: myFirstFont;
+color:#0a1903;
+text-align: left;
+}
+a:link {color:#494949;}      /* unvisited link */
+a:visited {color:#494949;}  /* visited link */
+a:hover {color:#8b9b94;}  /* mouse over link */
+a:active {color:#494949;}  /* selected link */
+A{text-decoration:none}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(BEBAS.ttf);
+}
+
+</style>
