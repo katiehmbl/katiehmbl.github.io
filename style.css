@@ -50,7 +50,7 @@ span{
 #links a:link{ color:#ffffff; font-size:24px; font-style: bold; 
  } 
 #links a:visited{ color:#ffffff; } 
-#links a:hover{ color:#5bce44; font-style: itallic; } 
+#links a:hover{ color:#ef5964; font-style: itallic; } 
 #links a:active{ color:#eeeded}
 
 
@@ -86,26 +86,6 @@ font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 a:hover { 
 color:#142303; 
 } 
-
-#bluebox {
-width:720px;
-background-color:#e7f6fa;
-    border:1px solid #bad8e1;
-
-}
-#greenbox {
-width:700px;
-background-color:#ccf9b8;
-    border:1px solid #9ace84;
-text-align: left;
-
-}
-#redbox {
-width:700px;
-background-color:#f9b8b8;
- border:1px solid #da7979;
-}
-
 
 h1 {
 font-family: myFirstFont;
