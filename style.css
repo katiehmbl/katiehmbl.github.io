@@ -100,10 +100,10 @@ font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-style: bold;
 color:#34cfb0;
 text-align: left;
 }
-a:link {color:#494949;}      /* unvisited link */
-a:visited {color:#494949;}  /* visited link */
-a:hover {color:#8b9b94; text-decoration:underline;}  /* mouse over link */
-a:active {color:#494949;}  /* selected link */
+a:link {color:#ef5964;}      /* unvisited link */
+a:visited {color:#ef5964;}  /* visited link */
+a:hover {color:#ef5964; text-decoration:underline;}  /* mouse over link */
+a:active {color:#ef5964;}  /* selected link */
 A{text-decoration:none}
 
 	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
