@@ -73,7 +73,7 @@ padding-left: 10px;
 padding-bottom: 10px;
 width: 100%;
 attachment: bottom;
-background-color:#d0cfcf;
+background-color:#DCDCDC;
 }
 
 #footertext{ 
@@ -109,25 +109,4 @@ A{text-decoration:none}
 	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 
 }
-.button {
-   background: #ef5963;
-   color: white;
-   font-size: 14px;
-   font-family: Helvetica, Arial, Sans-Serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.button:hover {
-   border-top-color: #c93e48;
-   background: #c93e48;
-   color: #ccc;
-   }
-.button:active {
-  background: #ef5963;
-   color: white;
-   font-size: 14px;
-   font-family: Helvetica, Arial, Sans-Serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
 </style>
