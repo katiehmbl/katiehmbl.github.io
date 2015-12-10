@@ -34,15 +34,20 @@
 <div id=content>
 <h1>contact</h1>
 <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
-Name:
-<input type="text" name="name" value="your name"><br>
-E-mail:
-<input type="text" name="mail" value="your email"><br>
-Comment:
+<table>
+  <tr>
+    <td><b>Name:</b></td>
+    <Td><input type="text" name="name" value="your name"></td></tr><tr>
+  <Td><b>E-mail:</b></td>
+  <Td><input type="text" name="mail" value="your email"></td>
+  </tr>
+  <tr>
+    <td colspan=2>
 <textarea name="comment"  rows="4" cols="50"></textarea>
-<br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+    </td></tr><tr>
+  <Td colspan=2 align=right>
+<input type="submit" value="Send" class=button>
+    </td></tr></table>
 </form>
 </div>
 </div>
